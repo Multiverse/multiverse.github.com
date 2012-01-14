@@ -13,26 +13,26 @@
 
 #header h1 { margin: 0; }
 
-#navigation
+#nav
 {
 	float: left;
 	width: 600px;
 	background:#333;
 }
 
-#navigation ul
+#nav ul
 {
 	margin: 0;
 	padding: 0;
 }
 
-#navigation ul li
+#nav ul li
 {
 	list-style-type: none;
 	display: inline;
 }
 
-#navigation li a
+#nav li a
 {
 	display: block;
 	float: left;
@@ -42,7 +42,7 @@
 	border-right: 1px solid#fff;
 }
 
-#navigation li a:hover { background:#383; }
+#nav li a:hover { background:#383; }
 
 #content
 {

@@ -22,7 +22,7 @@ h2
 
 #header
 {
-    background:#238D43;
+    background:#fff;
     padding: 0px;
     width:1000px;
     margin-left:auto;
@@ -76,7 +76,7 @@ h2
     clear:left;
     padding: 20px;
     width:960px;
-    background:#BF7830;
+    background:#fff;
 }
 
 #content h2
@@ -88,7 +88,7 @@ h2
 
 #footer
 {
-    background:#BF4330;
+    background:#fff;
     text-align: right;
     padding: 10px;
     width:980px;

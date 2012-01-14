@@ -3,9 +3,6 @@ layout: page
 title: Home
 header: Multiverse 2
 ---
-![Multiverse 2 Logo Long](assets/images/multiverse2-long.png)
-## What is Multiverse
-TODO: Write this.
 
 ### Features
 

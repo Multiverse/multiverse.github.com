@@ -21,7 +21,7 @@ Usage:
   <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %e, %Y" }}</small></h3>
   <p>{{ post.content }}</p>
   {% if forloop.last %}
-    {%if post.next %}
+    {%if post.previous %}
       <a href="others">Older Posts...</a>
     {% endif %}
   {% else %}

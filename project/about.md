@@ -8,7 +8,7 @@ group: project
 
 TODO: Write this
 
-## Active Developers
+## Developers
 
 [Eric Stokes](http://www.github.com/fernferret)  
 [main()](http://www.github.com/main--)  

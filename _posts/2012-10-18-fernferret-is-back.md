@@ -9,9 +9,9 @@ Hello all!
 
 It's been a while, but I'm finally back in action. I needed a little break to venture out into the world. I'll be working through all [250ish issues](https://github.com/multiverse/Multiverse-Core/issues) in the tracker in Core alone.
 
-Here was the post I made on [an issue]() on the tracker regarding the lack of communication:
+Here was the post I made on [an issue](https://github.com/Multiverse/Multiverse-Core/issues/912#issuecomment-9473205) regarding where I've been, I've placed it below.
 
-### re: Lack of Communication
+#### re: Lack of Communication
 
 This is because a lot of the developers have other things going on right now. I can say a fair number of us have full time jobs, and I'm not going to lie to you, when I worked on Multiverse last summer/winter, it almost killed me. I would come home from work, hop on IRC, help users, and write code. It was a second full time job. I know the other developers supported as much or more than I did.
 

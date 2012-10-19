@@ -13,10 +13,8 @@ TODO: Write this
 [Eric Stokes](http://www.github.com/fernferret)  
 [main()](http://www.github.com/main--)  
 [Dumptruckman](http://www.github.com/dumptruckman)
-
-## Former Developers
-[Simon Rigby](http://www.github.com/rigby90) - Father of Multiverse. Wrote Multiverse 1, was instrumental in 2.  
-[Tim Ekl](http://www.github.com/lithium3141) - CommandHandler author, awesome guy.
+[Simon Rigby](http://www.github.com/rigby90)
+[Tim Ekl](http://www.github.com/lithium3141)
 
 ## Other Contributors
 

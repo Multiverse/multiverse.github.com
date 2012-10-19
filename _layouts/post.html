@@ -5,12 +5,16 @@ layout: default
 <h1 class="title">{{ page.header }}</h1>
 
 {{ content }}
-
+<hr class="soften">
+<div>
 {% if page.previous %}
   {% if page.categories == page.previous.categories %}
-<h2>Next Steps</h2>
-<ul>
-  <li><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
-</ul>
+Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
   {% endif %}
 {% endif %}
+{% if page.next %}
+  {% if page.categories == page.next.categories %}
+Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+  {% endif %}
+{% endif %}
+</div>

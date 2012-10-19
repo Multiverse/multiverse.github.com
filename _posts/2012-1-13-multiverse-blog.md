@@ -4,7 +4,7 @@ category : news
 header: Welcome to the Multiverse Blog!
 ---
 
-But guys!?! Why? Not another place to get info! We (I, Eric Stokes (FernFerret)) have decided to play around with Jekyll. This is neat because any of the MV devs can commit, write, yell or code on here. Anything you see here comes directly from the team.
+But guys!?! Why? Not another place to get info! We (I, [Eric Stokes](https://github.com/fernferret)) have decided to play around with [Jekyll](https://github.com/mojombo/jekyll). This is neat because any of the MV devs can commit, write, yell or code on here. Anything you see here comes directly from the team.
 
 This is where we'll talk about the new cool things we're doing with MV2.
 

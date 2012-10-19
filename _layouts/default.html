@@ -21,11 +21,11 @@
           {% assign pages_list = site.pages %}
           {% assign group = 'project' %}
           {% include helpers/pages_list.html %}
-          {{ site.pages | debug }}
         </ul>
       </div>
     </div>
     <div id="content">
+      {{ site | debug }}
       {{ content }}
     </div>
     <div id="footer">

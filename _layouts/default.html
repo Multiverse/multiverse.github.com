@@ -19,15 +19,17 @@
       </section>
     </div>
     <hr>
-    <div id="nav">
-      <ul class="nav">
-        <li class="active">
-          <a href="/">Home</a>
-        </li>
-        {% assign pages_list = site.pages %}
-        {% assign group = 'project' %}
-        {% include helpers/pages_list.html %}
-      </ul>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <ul class="nav">
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          {% assign pages_list = site.pages %}
+          {% assign group = 'project' %}
+          {% include helpers/pages_list.html %}
+        </ul>
+      </div>
     </div>
     <div id="content">
       {{ content }}

@@ -15,9 +15,6 @@
     <div class="navbar">
       <div class="navbar-inner">
         <ul class="nav">
-          <li class="active">
-            <a href="/">Home</a>
-          </li>
           {% assign pages_list = site.pages %}
           {% assign group = 'project' %}
           {% include helpers/pages_list.html %}
@@ -25,12 +22,10 @@
       </div>
     </div>
     <div id="content">
-      <pre>
-        {{ site.navigation }}
-      </pre>
       {{ content }}
     </div>
     <div id="footer">
+      <hr>
       Copyright &copy; The Multiverse Team, 2012
     </div>
   </div>

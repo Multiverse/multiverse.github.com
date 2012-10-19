@@ -1,9 +1,8 @@
 ---
 layout: post
-category : general
+category : news
+header: Welcome to the Multiverse Blog!
 ---
-
-# Welcome to the Multiverse Blog!
 
 But guys!?! Why? Not another place to get info! We (I, Eric Stokes (FernFerret)) have decided to play around with Jekyll. This is neat because any of the MV devs can commit, write, yell or code on here. Anything you see here comes directly from the team.
 

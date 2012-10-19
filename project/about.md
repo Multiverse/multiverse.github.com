@@ -6,20 +6,22 @@ group: project
 
 ## A Brief History of Multiverse
 
-TODO: 
+TODO: Write this
 
-## Lead Developers
+## Active Developers
 
 [Eric Stokes](http://www.github.com/fernferret)  
 [main()](http://www.github.com/main--)  
-[Tim Ekl](http://www.github.com/lithium3141)  
-[Simon Rigby](http://www.github.com/rigby90)
+[Dumptruckman](http://www.github.com/dumptruckman)
 
-## Contributing Developers
+## Former Developers
+[Simon Rigby](http://www.github.com/rigby90) - Father of Multiverse. Wrote Multiverse 1, was instrumental in 2.  
+[Tim Ekl](http://www.github.com/lithium3141) - CommandHandler author, awesome guy.
+
+## Other Contributors
 
 These people are awesome. They've all helped us out immensely and unfortunately all I can do is give them this little piece of fame:
 
- - Test
- - Test
- - Test
+ - [Joe Davenport](http://www.github.com/acyrid) - Documentation
+ - [Elizabeth Myers](http://www.github.com/elizacat) - Documentation
 

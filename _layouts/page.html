@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<h1 class="title">{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
+<h1 class="title">{% if page.header %}{{ page.header | capitalize }}{% endif %}</h1>
 
 {{ content }}

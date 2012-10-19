@@ -12,8 +12,8 @@ TODO: Write this
 
 [Eric Stokes](http://www.github.com/fernferret)  
 [main()](http://www.github.com/main--)  
-[Dumptruckman](http://www.github.com/dumptruckman)
-[Simon Rigby](http://www.github.com/rigby90)
+[Dumptruckman](http://www.github.com/dumptruckman)  
+[Simon Rigby](http://www.github.com/rigby90)  
 [Tim Ekl](http://www.github.com/lithium3141)
 
 ## Other Contributors

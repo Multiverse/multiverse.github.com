@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<h1 class="title">{{ page.header }}</h1>
+<h1>{{ page.header }}{%if page.author %} <small>by {{page.author}}</small>{% endif %}</h1>
+<h4>{{ page.date | date: "%B %e, %Y" }}</h4>
+<hr>
 
 {{ content }}
-<hr class="soften">
+blarg
 <div>
 {% if page.previous %}
   {% if page.categories == page.previous.categories %}

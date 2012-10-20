@@ -1,3 +1,4 @@
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "Procfile"]
 permalink: /:categories/:title.html
 auto: true
 pygments: true

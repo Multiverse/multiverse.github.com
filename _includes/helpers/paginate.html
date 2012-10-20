@@ -8,6 +8,9 @@
       <p><a href="{{ post.url }}">Read More</a></p>
     {% endif %}
   </p>
+  {% unless forloop.last %}
+    <hr>
+  {% endunless %}
 {% endfor %}
 
 <ul class="pager">

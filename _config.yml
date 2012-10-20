@@ -5,5 +5,6 @@ paginate: 3
 navigation:
   - Home: /
   - News: /news.html
-  - About: /project/about.html
-  - Contribute: /project/contributing.html
+  - About: /about.html
+  - Contribute: /contributing.html
+  - Download: /download.html

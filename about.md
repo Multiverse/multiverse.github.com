@@ -3,7 +3,7 @@ layout: page
 title: about
 group: project
 ---
-
+{% include helpers/const.html %}
 ## A Brief History of Multiverse
 
 TODO: Write this

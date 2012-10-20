@@ -4,6 +4,7 @@ title: contribute
 group: project
 ---
 
+{% include helpers/const.html %}
 
 ## How to Contribute 
 

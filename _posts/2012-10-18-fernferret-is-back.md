@@ -9,7 +9,7 @@ Hello all!
 
 It's been a while, but I'm finally back in action. I needed a little break to venture out into the world. I'll be working through all [250ish issues](https://github.com/multiverse/Multiverse-Core/issues) in the tracker in Core alone.
 
-Here was the post I made on [an issue](https://github.com/Multiverse/Multiverse-Core/issues/912#issuecomment-9473205) regarding where I've been, I've placed it below.
+Here was the post I made on [an issue]() regarding where I've been. I've placed it below.
 
 #### re: Lack of Communication
 

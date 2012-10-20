@@ -2,6 +2,7 @@ exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "Ge
 permalink: /:categories/:title.html
 auto: true
 pygments: true
+markdown: kramdown
 paginate: 3
 navigation:
   - Home: /

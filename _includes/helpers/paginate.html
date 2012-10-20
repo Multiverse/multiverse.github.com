@@ -1,5 +1,5 @@
 {% for post in paginator.posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %e, %Y" }}{%if post.author %} by {{post.author}}{% endif %}</small></h3>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %e, %Y" }}{%if post.author %} by <a href="http://www.github.com/{{ post.author }}">{{ post.author }}</a>{% endif %}</small></h3>
   <p>
     {{ post.content | truncatewords:150 }}
     {% capture text %}{{ post.content | strip_html }}{% endcapture %}

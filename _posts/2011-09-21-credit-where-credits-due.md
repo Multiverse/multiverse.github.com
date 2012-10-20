@@ -14,7 +14,7 @@ This article lays out a series of Git commands to resolve this problem and menti
 In this case, a friendly dev named VibroAxe added support for portal cooldowns. (What they are isn't important; the important part comes next.) This support was spread across two patches, and regrettably used tabs instead of spaces, so there was still some work to do.
 
 Let's first lay out the existing situation:
-* Central repository managed by myself and [FernFerret](http://www.github.com/fernferret)
+* Central repository managed by [myself](http://www.github.com/lithium3141) and [FernFerret](http://www.github.com/fernferret)
 * Forked repository for VibroAxe with two new commits
 * Fix implemented but with poor tabbing practices
 

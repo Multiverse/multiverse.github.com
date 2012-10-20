@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.header }}{%if page.author %} <small>by {{page.author}}</small>{% endif %}</h1>
+<h1>{{ page.header }}{%if page.author %} <small>by <a href="http://www.github.com/{{ page.author }}">{{page.author}}</a></small>{% endif %}</h1>
 <h4>{{ page.date | date: "%B %e, %Y" }}</h4>
 <hr>
 

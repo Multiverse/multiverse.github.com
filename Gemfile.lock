@@ -33,5 +33,4 @@ DEPENDENCIES
   RedCloth
   foreman
   jekyll (~> 0.11.2)
-  kramdown
   rake

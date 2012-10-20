@@ -7,16 +7,19 @@ layout: default
 <hr>
 
 {{ content }}
-blarg
-<div>
-{% if page.previous %}
-  {% if page.categories == page.previous.categories %}
-Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+<ul class="pager">  
+  {% if page.previous %}
+    {% if page.categories == page.previous.categories %}
+    <li class="previous">
+      <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+    </li>
+    {% endif %}
   {% endif %}
-{% endif %}
-{% if page.next %}
-  {% if page.categories == page.next.categories %}
-Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+  {% if page.next %}
+    {% if page.categories == page.next.categories %}
+    <li class="next">
+      <a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+    </li>
+    {% endif %}
   {% endif %}
-{% endif %}
-</div>
+</ul>

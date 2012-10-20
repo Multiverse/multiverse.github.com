@@ -15,10 +15,6 @@
   <li class="previous">
     <a href="/page{{paginator.next_page}}">&larr; Older</a>
   </li>
-  {% else %}
-  <li class="previous disabled">
-    <a href="#">&larr; Older</a>
-  </li>
   {% endif %}
 
   {% if paginator.previous_page %}
@@ -29,7 +25,5 @@
     <a href="/page{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}
   </li>
-  {% else %}
-  <li class="next disabled"><a href="#">Newer &rarr;</a></li>
   {% endif %}
 </ul>

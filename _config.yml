@@ -2,3 +2,9 @@ permalink: /:categories/:title.html
 auto: true
 pygments: true
 paginate: 3
+navigation:
+  - Home: /
+  - News: /news.html
+  - About: /about.html
+  - Contribute: /contributing.html
+  - Download: /download.html

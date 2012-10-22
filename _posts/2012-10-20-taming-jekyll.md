@@ -17,21 +17,25 @@ I definetly can't take credit for all of the tips and tricks used here. If you'r
 ### Navigation Rev. A
 One of the most important aspects of building this site was to have a good navigation scheme. The bootstrap [navbar](http://twitter.github.com/bootstrap/components.html#navbar) works perfectly, but for a blog, it doesn't fit well at the top. I started off with a variant of some code provided in Jekyll Bootstrop to list all the pages with a given category:
 
-{% highlight jinja %}
-{% raw %}
-{% for node in pages_list %}
-  {% if group == null or group == node.group %}
-  	{% if page.url == node.url %}
-  	<li class="active"><a href="{{ node.url }}">{{ page.root }}{{ node.title | capitalize }}</a></li>
-  	{% else %}
-  	<li><a href="{{ node.url }}">{{ node.title | capitalize }}</a></li>
-  	{% endif %}
-  {% endif %}
-{% endfor %}
-{% assign pages_list = null %}
-{% assign group = null %}
-{% endraw %}
-{% endhighlight %}
+{:lang='bash'}
+    # This is example code
+    blah blah blah
+    qwer qwer qwer
+
+{:lang='jinja'}
+    {% raw %}
+    {% for node in pages_list %}
+      {% if group == null or group == node.group %}
+      	{% if page.url == node.url %}
+      	<li class="active"><a href="{{ node.url }}">{{ page.root }}{{ node.title | capitalize }}</a></li>
+      	{% else %}
+      	<li><a href="{{ node.url }}">{{ node.title | capitalize }}</a></li>
+      	{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = null %}
+    {% assign group = null %}
+    {% endraw %}
 
 This worked great until I started adding in [pagination](). The problem here is that each statically generated page gets the same tags as its parent does, meaning I had 3 'Home' links appearing in my navbar. This also didn't handle when a user clicked on an entry (like the one you're reading now). The navbar would simply loose focus, which isn't bad, but I'd prefer to have it go to a 'News' section or something.
 
@@ -39,14 +43,13 @@ This worked great until I started adding in [pagination](). The problem here is 
 
 A crafty individual notes that you can parse hashes quite easily in Jekyll. After knowing this, I searched through the docs to find a way to create a hash. As it turns out, the easiest way is to simply put any [YAML front matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) into `_config.yml`! I then wrote up the following YAML:
 
-{% highlight yaml %}
-navigation:
-  - Home: /
-  - News: /news.html
-  - About: /about.html
-  - Contribute: /contributing.html
-  - Download: /download.html
-{% endhighlight %}
+{:lang='yaml'}
+    navigation:
+      - Home: /
+      - News: /news.html
+      - About: /about.html
+      - Contribute: /contributing.html
+      - Download: /download.html
 
 Followed by this liquid template which I called `static_nav.html`:
 

@@ -1,7 +1,7 @@
 exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "Procfile", "vendor", "CNAME"]
 permalink: /:categories/:title.html
 auto: true
-pygments: true
+pygments: false
 paginate: 3
 navigation:
   - Home: /

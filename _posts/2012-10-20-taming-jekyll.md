@@ -1,6 +1,6 @@
 ---
 layout: post
-category : news
+category : broken
 header: Turning Jekyll into Mr. Hyde
 author: fernferret
 ---

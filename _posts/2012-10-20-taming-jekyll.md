@@ -1,6 +1,6 @@
 ---
 layout: post
-category : broken
+category: news
 header: Turning Jekyll into Mr. Hyde
 author: fernferret
 ---
@@ -109,3 +109,7 @@ After seeing this trick, I used it again to allow the 'Home' button to remain hi
 {% endfor %}
 {% endliteral %}
 {% endhighlight %}
+
+### Other Remarks
+
+Well, I finally have this page up (only about 15 days later than first written). The main reason for this was my use of the `{% literal %}{% raw %}{% endliteral %}` tag. As it turns out, I was using [liquid](http://liquidmarkup.org/) **2.4.1** with [jekyll](http://jekyllrb.com/) **0.11.2** while [github.com](http://www.github.com) uses **2.2.2** and **0.11.0**, respectively. The {% literal %}{% raw %}{% endliteral %} tag was introduced in liquid 2.3.0, whereas 2.2.2 uses the {% literal %}{% literal %}{% endliteral %} tag. Subtle difference, but it was causing the site not to build. I ultimately found the answer [hidden in the help pages](https://help.github.com/articles/pages-don-t-build-unable-to-run-jekyll).

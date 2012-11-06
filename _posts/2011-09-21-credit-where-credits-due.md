@@ -27,35 +27,35 @@ As mentioned, we can't use GitHub's built-in merge button, since that just does 
 So let's start by checking out the primary repository, then adding a remote for VibroAxe's repository:
 
 {% highlight bash %}
-git clone git@github.com:Herocraft/Multiverse-Portals.git
-cd Multiverse-Portals
-git remote add vibroaxe https://github.com/VibroAxe/Multiverse-Portals.git
+$ git clone git@github.com:Multiverse/Multiverse-Portals.git
+$ cd Multiverse-Portals
+$ git remote add vibroaxe https://github.com/VibroAxe/Multiverse-Portals.git
 {% endhighlight %}
 
 Now we can fetch the contents of his repository, which contains the commits we're merging:
 
 {% highlight bash %}
-git fetch vibroaxe
+$ git fetch vibroaxe
 {% endhighlight %}
 
 Once fetched, we need to work with the new code, so we can check out a branch. However, since we fetched without explicitly branching to track VibroAxe's repository, we need to create a branch name while checking out:
 
 {% highlight bash %}
-git checkout -b vibroaxe-cooldowns vibroaxe/master
+$ git checkout -b vibroaxe-cooldowns vibroaxe/master
 {% endhighlight %}
 
 Now we're on a branch with the new code that needs to be merged back. Before we combine, though, let's fix the spacing issues - we alter any code that needs to be changed and create another commit. Now we're **three commits ahead** of the upstream master branch.
 From this point, getting those commits onto master involves a simple rebase:
 
 {% highlight bash %}
-git rebase -i master
+$ git rebase -i master
 {% endhighlight %}
 
 While rebasing, we can leave the first commit as "pick", but "squash" the next two commits down onto the first - this will leave us with only one commit on master that combines the work done in VibroAxe's two commits and the spacing work done in the third.
 After fixing up the messages for our new combined commit, we simply push back to master and call it a day:
 
 {% highlight bash %}
-git push origin master
+$ git push origin master
 {% endhighlight %}
 
 And voila! GitHub shows VibroAxe as the committer of a **single commit** combining **all work needed** for the new cooldowns feature.

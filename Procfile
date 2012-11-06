@@ -1,1 +1,1 @@
-web: jekyll --server $PORT
+web: jekyll --server $PORT --no-lsi --safe --pygments

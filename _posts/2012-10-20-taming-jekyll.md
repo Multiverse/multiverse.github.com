@@ -42,7 +42,7 @@ SNIP
 After seeing this trick, I used it again to allow the 'Home' button to remain highlighted for both `/` and `/index.html` URLs. This is the final result of `static_nav.html`
 
 {% highlight jinja %}
-{% raw %}
+{% literal %}
 {% elsif page.url contains 'news/' %}
 {% for link_hash in site.navigation %}
   {% for link in link_hash %}
@@ -65,5 +65,5 @@ After seeing this trick, I used it again to allow the 'Home' button to remain hi
        {% endif %}
   {% endfor %}
 {% endfor %}
-{% endraw %}
+{% endliteral %}
 {% endhighlight %}

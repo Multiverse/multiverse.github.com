@@ -41,4 +41,29 @@ SNIP
 ### Final Navigation code
 After seeing this trick, I used it again to allow the 'Home' button to remain highlighted for both `/` and `/index.html` URLs. This is the final result of `static_nav.html`
 
-SNIP
+{% highlight jinja %}
+{% raw %}
+{% elsif page.url contains 'news/' %}
+{% for link_hash in site.navigation %}
+  {% for link in link_hash %}
+    {% if page.url == link[1] %}
+       <li class="active"><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% elsif page.url contains 'index.html' %}
+       {% if link[0] == "Home" %}
+         <li class="active"><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% else %}
+         <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% endif %}
+       {% elsif page.url contains 'news/' %}
+       {% if link[0] == "News" %}
+         <li class="active"><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% else %}
+         <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% endif %}
+       {% else %}
+       <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+       {% endif %}
+  {% endfor %}
+{% endfor %}
+{% endraw %}
+{% endhighlight %}

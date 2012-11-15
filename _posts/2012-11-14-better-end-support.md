@@ -3,6 +3,7 @@ layout: post
 category: news
 header: Better End Support
 author: dumptruckman
+limit: 100
 ---
 The [latest development builds](http://ci.onarandombox.com/view/Multiverse/) of Multiverse-Core and Multiverse-NetherPortals now has significantly better end support.  This is something that we have been lacking for quite a while now so I'm pretty excited to see it finally here.
 
